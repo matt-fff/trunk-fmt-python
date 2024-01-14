@@ -2,9 +2,7 @@
 name = "trunk-fmt-python"
 version = "0.1.0"
 description = "Add your description here"
-authors = [
-    { name = "Matt White", email = "mail@matt-w.net" }
-]
+authors = [{ name = "Matt White", email = "mail@matt-w.net" }]
 dependencies = []
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -15,11 +13,14 @@ build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = [
-    "isort>=5.13.2",
-    "black>=23.12.1",
-]
+dev-dependencies = ["isort>=5.13.2", "black>=23.12.1"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
 
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+line_length = 79

@@ -1,5 +1,8 @@
-from datetime import datetime as arbitrarily_long_name_to_force_an_error
+from datetime import (
+    datetime as long_name_to_force_a_bad_autoformat_aaaaaaaaaaaaa,
+)
+
 
 def hello():
-    date = arbitrarily_long_name_to_force_an_error.now()
+    date = long_name_to_force_a_bad_autoformat_aaaaaaaaaaaaa.now()
     print(date)
