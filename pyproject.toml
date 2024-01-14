@@ -18,9 +18,9 @@ dev-dependencies = ["isort>=5.13.2", "black>=23.12.1"]
 [tool.hatch.metadata]
 allow-direct-references = true
 
-
 [tool.black]
-line-length = 79
+line-length = 80
 
 [tool.isort]
-line_length = 79
+line_length = 80
+profile = "black"
