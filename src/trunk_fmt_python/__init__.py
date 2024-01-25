@@ -5,4 +5,4 @@ from datetime import (
 
 def hello():
     date = long_name_to_force_a_bad_autoformat_aaaaaaaaaaaaa.now()
-    print(date)
+    print(date + "arbitrary")
